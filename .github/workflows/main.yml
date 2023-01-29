@@ -11,7 +11,7 @@ on:
 jobs:
   build-app:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - uses: actions/checkout@v3
       - name: run a one-ine script
         run: echo Hello, world!
@@ -19,4 +19,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
